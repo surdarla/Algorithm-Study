@@ -1,4 +1,4 @@
-# 📌 Algorithm-Study
+# 📌 ProblemSolving-Study
 
 **목표 : 하루에 hackerrank 한 문제씩 풀기**
 
