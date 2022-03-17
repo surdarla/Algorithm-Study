@@ -4,13 +4,7 @@ import random
 import re
 import sys
 
-#
-# Complete the 'equalizeArray' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts INTEGER_ARRAY arr as parameter.
-#
-
+# 1안
 def equalizeArray(n, arr):
     unique_list = []
     count_list = []
@@ -24,6 +18,12 @@ def equalizeArray(n, arr):
             count_list[-1] += 1
     result = max(count_list)
     return n-result
+
+# 2안
+import numpy as np
+def equalizeArray(n, arr):
+		value, counts = np.unique(arr, return_counts=True)
+		return n-max(counts)
 
 if __name__ == '__main__':
 
