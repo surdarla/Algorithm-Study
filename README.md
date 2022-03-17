@@ -1,6 +1,6 @@
 # 📌 ProblemSolving-Study
 
-**목표 : 하루에 hackerrank 한 문제씩 풀기**
+    **목표 : 하루에 hackerrank 한 문제씩 풀기**
 
 ## How we doing
 1. 번갈아 가면서 한 명이 문제를 고른다.
