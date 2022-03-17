@@ -13,5 +13,5 @@
 
 1. Daily Problem URL
 
-(0317)[The Power Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem?isFullScreen=true)
+(0317)[Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem?isFullScreen=true)
 
