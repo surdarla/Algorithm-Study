@@ -12,7 +12,8 @@ def equalizeArray(arr):
 
 ## collections - Counter
 
-![collections](/Junsu_kim/img/collections.png){: width="100" height="100"}
+![collections](/Junsu_kim/img/collections.png)
+[Counter Documentaion](https://docs.python.org/ko/3/library/collections.html#counter-objects)
 
 - {element : count_num , ...} 형식으로 쉽게 카운팅 가능
 - 완전히 제거하려면 del 함수를 사용해야함.
