@@ -1,3 +1,5 @@
+# solution
+
 ```python
 
 # The function is expected to return an INTEGER.
@@ -10,7 +12,7 @@ def equalizeArray(arr):
     return sum(c.values()) - max_count
 ```
 
-## collections - Counter
+# collections - Counter
 
 ![collections](/Junsu_kim/img/collections.png)
 [Counter Documentaion](https://docs.python.org/ko/3/library/collections.html#counter-objects)
@@ -18,7 +20,7 @@ def equalizeArray(arr):
 - {element : count_num , ...} 형식으로 쉽게 카운팅 가능
 - 완전히 제거하려면 del 함수를 사용해야함.
 
-### methods
+## methods
 
 - elements() : 개수만큼 반복되는 요소에 대한 이터레이터를 반환
 - most_common[n] : 가장 빈도수 높은 순으로 n개의 튜플을 리스트로 반환
