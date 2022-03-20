@@ -61,4 +61,5 @@ def countingSort(arr):
   - since  represents the minimum number of comparisons needed to know where to place each element.
   - 비교정렬 + 최악 = n log(n)을 초월할 수 없다는 이야기
 
-+ mockup test : Flipping the Matrix 못풀음 다시풀어야함.
+### mockup test
+[Flipping the Matrix - medium](https://www.hackerrank.com/challenges/flipping-the-matrix/problem?isFullScreen=true) 못풀음 다시풀어야함.
