@@ -23,3 +23,5 @@
 
 - (0317) [Recursive Digit Sum - Recursion](https://www.hackerrank.com/challenges/recursive-digit-sum/problem?isFullScreen=true)
 - (0318) [Equlize The Array - Counter](https://www.hackerrank.com/challenges/equality-in-a-array/problem?h_r=internal-search)
+- (0321) [Flipping_the_matrix - Constructive Algorithm](https://www.hackerrank.com/challenges/flipping-the-matrix/problem?isFullScreen=true)
+- (0322) [Candies - Greedy](https://www.hackerrank.com/challenges/candies/problem?isFullScreen=true)
