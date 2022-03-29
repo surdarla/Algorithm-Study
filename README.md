@@ -26,3 +26,4 @@
 - (0321) [Flipping_the_matrix - Constructive Algorithm](https://www.hackerrank.com/challenges/flipping-the-matrix/problem?isFullScreen=true)
 - (0322) [Candies - Greedy](https://www.hackerrank.com/challenges/candies/problem?isFullScreen=true)
 - (0328) [Caesar Cipher - String](https://www.hackerrank.com/challenges/one-week-preparation-kit-caesar-cipher-1/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D=one-week-day-three)
+- (0329) [New year chaos - Constructive Algorithm](https://www.hackerrank.com/challenges/one-week-preparation-kit-new-year-chaos/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D=one-week-day-four)
