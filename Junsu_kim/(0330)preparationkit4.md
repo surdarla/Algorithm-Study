@@ -51,15 +51,13 @@ def truckTour(petrolpumps):
 - 첫번째 시도는 4개만 맞고 시간초과남. 자료구조적으로 시간복잡도 개선이 필요함
 - 보니깐 자료구조적으로 queue를 사용하라고함.
 
-### solve 2 - queue로 성공
+### solve 2 - 꼼수
 
 ```python
-import queue
 def truckTour(petrolpumps):
     n = len(petrolpumps)
     answer = 0
     tank = 0
-    q = queue.Queue()
 
     for i in range(n):
         petr, dist = petrolpumps[i]
@@ -71,7 +69,10 @@ def truckTour(petrolpumps):
             tank = 0
             answer = i+1
             
-        q.put((petr, dist))
-            
     return answer
 ```
+
+- 사실 queue도 필요없다.
+- 기본적으로 한 가지 경우는 반드시 조건을 만족하는 경우가 있다는 것이 문제의 함정이다.
+- 그래서 앞에서부터 탱크를 채워가다가 앵꼬가 나는 순간 answer를 해당 경우로 갱신해주면서 한번만 돌아주면 되는 것이다.
+- 사실 queue를 이용해서 뒤에 다시 덧붙이면서 해줘야하는데 약간 꼼수로 풀수도 있다는 것이 신기하다.
