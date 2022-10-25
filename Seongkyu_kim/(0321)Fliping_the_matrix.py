@@ -8,10 +8,10 @@ import sys
 
 
 def flippingMatrix(matrix):
-    
+
     n = len(matrix) // 2
     max_val = 0
-    
+
     for i in range(n):
         for j in range(n):
             max_val += max(matrix[i][j], matrix[i][2*n-j-1], matrix[2*n-i-1][j], matrix[2*n-i-1][2*n-j-1])

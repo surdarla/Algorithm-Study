@@ -18,7 +18,7 @@ def superDigit(n, k, Flag):
         Flag = False
     else:
         new_n = str(n)
-    
+
     if len(new_n) < 2:
         return int(new_n)
     else:

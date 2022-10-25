@@ -38,7 +38,7 @@ def diagonalDifference(arr,n):
 # The function accepts INTEGER_ARRAY arr as parameter.
 
 def countingSort(arr):
-    
+
     result = [0]*100
     for i in arr:
         result[i] += 1
@@ -56,7 +56,7 @@ def countingSort(arr):
   - *사실상 min - max의 사이 k값이 엄청나게 크거나* - 해당 경우에는 사실상 $O(n+k)$를 가진다.
   - *int가 아니라 string*에 대한 카운트를 해야할 경우는 quick이 좋다.
   - 하지만 범위상의 모든 경우를 0개가 나오는 것 까지 포함하는 배열을 만들어줄때는 좋은 대안이 될 수 있다.
-  
+
 - [lower Bound](https://www.cs.cmu.edu/~avrim/451f11/lectures/lect0913.pdf)
   - since  represents the minimum number of comparisons needed to know where to place each element.
   - 비교정렬 + 최악 = n log(n)을 초월할 수 없다는 이야기

@@ -14,10 +14,10 @@ def flippingMatrix(matrix):
     # Write your code here
     lenth = len(matrix[0])
     half = lenth//2
-    
-    # point symmetry 
+
+    # point symmetry
     q_sum = 0
     for i in range(half):
         for j in range(half):
-            q_sum += max(matrix[i][j], matrix[i][lenth-j-1], matrix[lenth-i-1][j], matrix[lenth-i-1][lenth-j-1]) 
+            q_sum += max(matrix[i][j], matrix[i][lenth-j-1], matrix[lenth-i-1][j], matrix[lenth-i-1][lenth-j-1])
     return q_sum

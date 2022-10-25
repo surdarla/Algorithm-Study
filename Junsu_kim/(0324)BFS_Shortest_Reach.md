@@ -26,7 +26,7 @@ def bfs(n, m, edges, s):
         first, second = [nodes[i - 1] for i in edge]
         first.children.append(second)
         second.children.append(first)
-    
+
     top = nodes[s - 1]
     top.distance = 0
     queue = Queue()

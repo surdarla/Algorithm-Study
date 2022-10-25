@@ -5,7 +5,7 @@ def sum_digit(n):
         n = str(n)
     else :
         return n
-    
+
 def superDigit(n, k):
     n = str(k * int(n))
     return sum_digit(n)

@@ -22,9 +22,9 @@ def minimumBribes(q):
             else:
                 bribe_num = "Too chaotic"
                 break
-            
+
     print(bribe_num)
-    
+
 if __name__ == '__main__':
     t = int(input().strip())
 

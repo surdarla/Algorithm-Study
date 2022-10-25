@@ -11,7 +11,7 @@
 
 - [GitCommitBestPractices](https://gist.github.com/luismts/495d982e8c5b1a0ced4a57cf3d93cf60)
 - [cbeams-How to Write a Git Commit Message](https://cbea.ms/git-commit/)
-  
+
 1. 영문 사용, 50자 이내, 끝 . 금지, 앞글자 대문자
 2. 제목 (한줄띄고) 본문 형식
 3. how < what, why

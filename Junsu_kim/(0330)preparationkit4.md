@@ -8,7 +8,7 @@
 #
 
 def gridChallenge(grid):
-    
+
     for i in range(len(grid[0])):
         col = []
         for j in range(len(grid)):
@@ -62,13 +62,13 @@ def truckTour(petrolpumps):
     for i in range(n):
         petr, dist = petrolpumps[i]
         tank += petr
-        
+
         if dist <= tank:
             tank -= dist
         else:
             tank = 0
             answer = i+1
-            
+
     return answer
 ```
 

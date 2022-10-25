@@ -22,15 +22,15 @@ def caesarCipher(s, k):
     k %= 26  # test case 에서 k 값이 26을 넘어가면 문제 발생. 26 으로 나눈 나머지로 ㄱㄱ
     small = 'abcdefghijklmnopqrstuvwxyz'
     big = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-    
+
     intab = small
     outtab = intab[k:]+intab[:k]
     intab2 = big
     outtab2 = intab2[k:]+intab2[:k]
-    
+
     transtab = s.maketrans(intab, outtab)
     transtab2 = s.maketrans(intab2, outtab2)
-    
+
     s = s.translate(transtab2)
     return s.translate(transtab)
 

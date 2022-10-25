@@ -5,7 +5,7 @@ def countLetters(word):
             counter[letter] = 0
         counter[letter] += 1
     return counter
-            
+
 
 def lonelyinteger(a):
     # Write your code here
